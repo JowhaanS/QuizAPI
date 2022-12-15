@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "9hhHVH7H1IH1ZFQT9sP2URGpBTpkaJawpYexOk6/SmchPnyYOiD0EEvt1pLj0cVKHjJLZdEn2Hi/SCBsRT6q/w==",
+  "success": true,
+  "projectFilePath": "/Users/johansepp/Projects/QuizAPI/QuizAPI/QuizAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/johansepp/.nuget/packages/microsoft.aspnetcore.openapi/7.0.0/microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
+    "/Users/johansepp/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/johansepp/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/johansepp/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/johansepp/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/johansepp/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/johansepp/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
