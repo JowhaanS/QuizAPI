@@ -13,7 +13,9 @@
 
     <ItemGroup>
       <Folder Include="Controllers" />
-      <Folder Include="Interfaces" />
+      <Folder Include="Interfaces\Adapters" />
+      <Folder Include="Interfaces\Contexts" />
+      <Folder Include="Interfaces\Repositories" />
     </ItemGroup>
 
 </Project>
