@@ -1,16 +1,20 @@
-namespace QuizAPI.Models;
-
-public class Question : BaseModel
+namespace QuizAPI.Models
 {
-    private string QuestionText { get; set; }
-    private string TriviaId { get; set; }
-    private List<Answer> Answers { get; set; }
-
-    public Question(string questionText, string triviaId, List<Answer> answers)
+    public class Question
     {
-        Id = new Guid();
-        QuestionText = questionText;
-        TriviaId = triviaId;
-        Answers = answers;
+        public Guid Id { get; set; }
+        public string TriviaId { get; set; }
+        public string Text { get; set; }
+        public string Category { get; set; } 
+
+
+        public Question(string text, string triviaId, string category) 
+        {
+            this.Id = Guid.NewGuid(); 
+            this.TriviaId = triviaId;
+            this.Text = text;
+            this.Category = category;
+
+        }
     }
 }

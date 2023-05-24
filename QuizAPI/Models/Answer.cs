@@ -1,16 +1,25 @@
-namespace QuizAPI.Models;
-
-public class Answer : BaseModel
+namespace QuizAPI.Models
 {
-    private string AnswerText { get; set; }
-    private bool IsCorrect { get; set; }
-    private Guid QuestionId { get; set; }
-
-    public Answer(string answerText, bool isCorrect, Guid questionId)
+    public class Answer
     {
-        Id = new Guid();
-        AnswerText = answerText;
-        IsCorrect = isCorrect;
-        QuestionId = questionId;
+        public Guid Id { get; set; }
+        public string? AnswerText { get; set; }
+        public bool IsCorrectAnswer { get; set; }
+        public Guid QuestionId { get; set; }
+
+        public Answer()
+        {
+            Id = Guid.NewGuid();
+        }
+
+
+        public Answer(string answer, Guid questionId, bool isCorrectAnswer)
+        {
+            Id = Guid.NewGuid();
+            AnswerText = answer;
+            QuestionId = questionId;
+            IsCorrectAnswer = isCorrectAnswer;
+        }
     }
+
 }
